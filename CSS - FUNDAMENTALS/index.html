@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>HTML</title>
   </head>
   <body>
-    <header>
-      <h1>HTML Fundamentals</h1>
-      <nav>
-        <a href="new-page.html">New Page</a>
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">SEMANTIC</a>
-      </nav>
+    <header class="first-header">
+      <div class="main-header">
+        <h1>HTML FUNDAMENTALS</h1>
+        <nav>
+          <a href="new-page.html">New Page</a>
+          <a href="#">HTML</a>
+          <a href="#">CSS</a>
+          <a href="#">SEMANTIC</a>
+          <a>TEST</a>
+        </nav>
+      </div>
 
-      <img src="image-2.jpg" alt="image-2" width="400" height="400" />
+      <img src="image-2.jpg" alt="image-2" width="50" height="50" />
       <p>Created by <strong>Ana Soares</strong> 24 de Julho de 2024</p>
       <img src="image-1.png" alt="image-1" width="400" height="400" />
     </header>
@@ -28,6 +32,7 @@
           consectetur odit?
         </p>
         <h2>Hyper Text Markup Language</h2>
+        <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
         <p>
           Lorem <em>ipsum dolor</em> sit amet consectetur adipisicing elit.
           Ullam libero aperiam temporibus.
@@ -51,10 +56,10 @@
           <li>Lorem, ipsum dolor.</li>
         </ul>
       </section>
-    </main>
-    <footer>
       <a href="#">Back to page</a>
-      <p>Copyright &copy; Created by Ana Soares</p>
+    </main>
+    <footer class="footer">
+      <p id="copyright">Copyright &copy; Created by Ana Soares</p>
     </footer>
   </body>
 </html>
